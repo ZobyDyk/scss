@@ -1,0 +1,64 @@
+body {
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #3E2723;
+  background: #FFF8E7;
+}
+
+a {
+  color: #855E42;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C2A477;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.site-header {
+  background: #855E42;
+  color: #FFF8E7;
+  padding: 20px 0;
+}
+
+.site-header .navigation ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.site-header .navigation ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.site-header .navigation ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hero {
+  background: url("coffee-shop.jpg") no-repeat center center/cover;
+  color: #FFF8E7;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+section {
+  margin: 40px 0;
+}
+
+footer {
+  background: #3E2723;
+  color: #FFF8E7;
+  text-align: center;
+  padding: 10px 0;
+}
+/*# sourceMappingURL=main.css.map */

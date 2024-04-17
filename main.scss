@@ -1,0 +1,48 @@
+@import 'variables';
+@import 'base';
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.site-header {
+    background: $primary-color;
+    color: $light-color;
+    padding: 20px 0;
+
+    .navigation ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+
+        li {
+            display: inline;
+            margin: 0 15px;
+
+            a {
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.hero {
+    background: url('coffee-shop.jpg') no-repeat center center/cover;
+    color: $light-color;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+footer {
+    background: $dark-color;
+    color: $light-color;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -1,0 +1,16 @@
+body {
+    font-family: $font-stack;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: $dark-color;
+    background: $light-color;
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+    &:hover {
+        color: $accent-color;
+    }
+}
